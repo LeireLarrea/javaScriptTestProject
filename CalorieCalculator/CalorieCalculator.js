@@ -1,18 +1,18 @@
 function inputCaloriesByDay(day){
     switch (day){
-        case 'monday':
+        case 'Monday':
             return 100;
-        case 'tuesday':
+        case 'Tuesday':
             return 200;
-        case 'wednesday':
+        case 'Wednesday':
             return 300;
-        case 'thursday':
+        case 'Thursday':
             return 400;
-        case 'friday':
+        case 'Friday':
             return 500;
-        case 'saturday':
+        case 'Saturday':
             return 600;
-        case 'sunday':
+        case 'Sunday':
             return 700;
         default:
             alert('please type a valid day such as monday, tuesday, wednesday, thursday, friday, saturday, sunday');
@@ -21,7 +21,9 @@ function inputCaloriesByDay(day){
     }
 
 function getTotalCalories (){
-    return inputCaloriesByDay('monday') + inputCaloriesByDay('tuesday') + inputCaloriesByDay('wednesday') + inputCaloriesByDay('thursday') + inputCaloriesByDay('friday') + inputCaloriesByDay('saturday') + inputCaloriesByDay('sunday') ;
+    return inputCaloriesByDay('Monday') + inputCaloriesByDay('Tuesday') + 
+            inputCaloriesByDay('Wednesday') + inputCaloriesByDay('Thursday') + 
+            inputCaloriesByDay('Friday') + inputCaloriesByDay('Saturday') + inputCaloriesByDay('Sunday');
 }
 
 function getIdealCalories (){
