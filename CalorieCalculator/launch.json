@@ -6,7 +6,7 @@
     "configurations": [
     {
         "name": "Launch Program",
-        "program": "${workspaceFolder}/BearHumanHunt/BearHumanGun.js",
+        "program": "${workspaceFolder}/CalorieCalculator/CalorieCalculator.js",
         "request": "launch",
         "skipFiles": [
             "<node_internals>/**"
